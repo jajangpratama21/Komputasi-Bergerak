@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    android:orientation="vertical"
+    tools:context=".LayoutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text 1 Septian Nur Fajar P"
+        android:background="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text 1 Jajang Pratama"
+        android:background="#00FF00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text 1 JEPEINHERE"
+        android:background="#0000FF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0"
+        android:layout_weight="2"
+        android:text="Text 1 JEPEINHERE"
+        android:background="#00FFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0"
+        android:layout_weight="1"
+        android:text="Text 1 JEPEINHERE"
+        android:background="#FF00FF"/>
+</LinearLayout>
+
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    android:orientation="vertical"
+    tools:context=".LayoutActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text 1"
+        android:layout_toRightOf="@id/button1"
+        android:background="#00FF00"
+        />
+    <TextView
+        android:layout_toRightOf="@id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text 2"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout> -->
+
+<!--
+    * Linier mendukung weight (pembagian layar) sedangkan Relative tidak
+    * match_parent -> mengikuti panjang layar
+    * wrap_content -> mengikuti komponen
+    * android:visibility="gone" -> tempat dan isi dihilangkan
+    * android:visibility="invisible" -> tempat masih ada dan isi dihilangkan
+    * android:visibility="visible" -> tempat masih ada dan isi masih ada
+-->
